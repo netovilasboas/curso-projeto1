@@ -1,0 +1,64 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 0;
+}
+
+#hero {
+    width: auto;
+    margin: 0 auto 200px;
+    /* margem da "div" no sentido horário*/
+}
+
+#hero img {
+    margin-bottom: 72px;
+    width: 348px;
+    height: 274.217px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    /*Negrio, itálico e sublinhado*/
+    font-size: 49px;
+    line-height: 56px;
+    /* espacamento entre linhas do texto */
+    margin-bottom: 32px;
+    /* espacamento entre parágrafos */
+}
+
+h1 span {
+    font-weight: bolder;
+    color: #ff9900;
+}
+
+p span,
+a {
+    color: #ff9900;
+}
+
+p,
+#rodape {
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+/*da espaço a esquerda de um "a" que tenha outro "a" aterior*/
+#rodape a+a {
+    margin-left: 28px;
+}
+
+#linha {
+    width: 568px;
+    height: 0px;
+    border: 1px solid #ECEFF2;
+    margin: 0px auto 8px;
+}
+
+#bolas {
+    position: absolute;
+    top: 100%;
+    right: 1px;
+
+}
